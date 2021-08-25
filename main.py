@@ -9,10 +9,11 @@ class Menu:
 
     def Cadastrar_contato(self):
         nome = input('Digite o nome: ')
-        telefone = input('Digite o número do telefone: ')
-        email = input('Digite o email para contato: ')
-        novo_contato = Contato(nome, telefone, email)
+        numero_telefone = input('Digite o número do telefone: ')
+        email_contato = input('Digite o email para contato: ')
+        novo_contato = Contato(nome, numero_telefone, email_contato)
         self.contato.append(novo_contato)
 
     def listar_contato(self):
+        print('Seu número de contatos é: ' + str(self.contato))
 
