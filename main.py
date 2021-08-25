@@ -15,5 +15,6 @@ class Menu:
         self.contato.append(novo_contato)
 
     def listar_contato(self):
-        print('Seu número de contatos é: ' + str(self.contato))
+        print('' + str(self.Cadastrar_contato()))
+        
 
