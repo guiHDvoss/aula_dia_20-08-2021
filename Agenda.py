@@ -11,4 +11,4 @@ class Agenda:
     def getAno(self):
         return self.__ano
 
-    contato = Contato
+
