@@ -15,6 +15,6 @@ class Menu:
         self.contato.append(novo_contato)
 
     def listar_contato(self):
-        print('' + str(self.Cadastrar_contato()))
-        
+        print('' + str(self.contato))
+
 
